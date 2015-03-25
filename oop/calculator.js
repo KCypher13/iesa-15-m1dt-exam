@@ -6,19 +6,19 @@ function Calculator(){
 
 
 	this.add = function (nbr){
-		return 5;
+		this.result = this.result + nbr
 	}
 
 	this.minus = function (nbr){
-		return 4;
+		this.result = this.result - nbr
 	}
 
 	this.devide = function (nbr){
-		return 2;
+		this.result = this.result / nbr
 	}
 
 	this.multiply = function (nbr){
-		return 6;
+		this.result = this.result * nbr
 	}
 
 }
