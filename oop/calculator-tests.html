@@ -15,24 +15,37 @@
   	var calculator = new Calculator();
 	calculator.add(5);
     assert.equal(calculator.result, 5, "ajoute 5");
+    assert.equal(calculator.add(3,6), 'error', 'fonction ne devrait pas prendre plusieurs arguments');
+	assert.equal(calculator.add(), 'error', 'cette fonction necessite au moins un argument');
+	assert.equal(calculator.add('string'), 'error', 'cette fonction attends un nombre');
+
   });
   QUnit.test("Calculator minus", function( assert ) {
   	var calculator = new Calculator();
   	calculator.result = 5;
 	calculator.minus(1);
     assert.equal(calculator.result, 4, "enlève 4");
+    assert.equal(calculator.minus(3,6), 'error', 'fonction ne devrait pas prendre plusieurs arguments');
+	assert.equal(calculator.minus(), 'error', 'cette fonction necessite au moins un argument');
+	assert.equal(calculator.minus('string'), 'error', 'cette fonction attends un nombre');
   });
   QUnit.test("Calculator devide", function( assert ) {
   	var calculator = new Calculator();
   	calculator.result = 4;
   	calculator.devide(2);
     assert.equal(calculator.result, 2, "divise par 2");
+    assert.equal(calculator.devide(3,6), 'error', 'fonction ne devrait pas prendre plusieurs arguments');
+	assert.equal(calculator.devide(), 'error', 'cette fonction necessite au moins un argument');
+	assert.equal(calculator.devide('string'), 'error', 'cette fonction attends un nombre');
   });
   QUnit.test("Calculator multiply", function( assert ) {
   	var calculator = new Calculator();
   	calculator.result = 2;
   	calculator.multiply(3);
     assert.equal(calculator.result, 6, "multiplie par 3");
+    assert.equal(calculator.devide(3,6), 'error', 'fonction ne devrait pas prendre plusieurs arguments');
+	assert.equal(calculator.devide(), 'error', 'cette fonction necessite au moins un argument');
+	assert.equal(calculator.devide('string'), 'error', 'cette fonction attends un nombre');
   });
 
 
