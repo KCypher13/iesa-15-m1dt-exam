@@ -1,0 +1,60 @@
+{
+
+	"mercure" :{
+		"rayon": "2 439",
+		"distance":"0.4",
+		"description":"Mercure est la planète la plus proche du Soleil (0,4 UA), ainsi que la plus petite (4 900 km de diamètre) et la moins massive, plus du vingtième de la masse terrestre (0,055 masse terrestre)34. Elle est connue depuis l'Antiquité et doit son nom au dieu Mercure, qui était chez les Romains le messager des dieux, et dieu du commerce et du voyage ; cela est dû au fait qu'elle se déplace très vite. Mercure ne possède aucun satellite naturel et ses seules caractéristiques géologiques connues, en dehors des cratères d’impact, sont des dorsa, probablement produites par contraction thermique lors de la solidification interne, plus tôt dans son histoire35. L’atmosphère de Mercure, quasiment inexistante, est formée d’atomes arrachés à sa surface par le vent solaire36,37, ou momentanément capturé à ce vent. L’origine de son grand noyau de fer liquide -et son fin manteau, composée de différents métaux- n’a toujours pas été expliquée de manière adéquate. Parmi les scénarios hypothétiques, il est possible que ses couches externes aient été balayées par un impact géant ou qu’elle ait été stoppée dans son accrétion par l’énergie solaire38,39. Sa période de révolution est d'environ 88 jours et sa période de rotation est de 58 jours. L’absence d'atmosphère significative et la proximité du Soleil amène les températures de surface à varier de 427 °C (700 K) lorsque le Soleil est au zénith à -183 °C (90 K) la nuit34.",
+		"image":"mercure.jpg"
+	},
+	
+	"venus" :{
+		"rayon": "6 051",
+		"distance":"0.7",
+		"description": "Vénus (0,7 UA) est proche de la Terre en rayon et en masse (0,815 masse terrestre) et, comme elle, possède un épais manteau de silicate entourant un noyau métallique, une atmosphère significative et une activité géologique interne. Cependant, elle est beaucoup plus sèche et la pression de son atmosphère (au sol) est 90 fois celle de la nôtre40. Vénus ne possède aucun satellite33. Il s’agit de la planète la plus chaude, avec une température de surface supérieure à 450°C, maintenue essentiellement par l’effet de serre causé par son atmosphère très riche en gaz carbonique41,42. Aucune activité géologique récente n’a été détectée sur Vénus ; son absence de champ magnétique ne permettant pas d’empêcher l'appauvrissement de son atmosphère, cela suggère cependant qu’elle est réalimentée régulièrement par des éruptions volcaniques43,40. Sa période de révolution est d'environ 225 jours. Sa période de rotation est de 243 jours.",
+		"image": "venus.jpg"
+	},
+
+	"terre" :{
+		"rayon": "6 378",
+		"distance":"1",
+		"description": "La Terre (1 UA) est la plus grande, la plus massive et la plus dense des planètes internes, la seule dont on connaisse une activité géologique récente et qui abrite la vie. Son hydrosphère liquide est unique parmi les planètes telluriques et elle est la seule planète où une activité tectonique a été observée. L’atmosphère terrestre est radicalement différente de celle des autres planètes, ayant été altérée par la présence de formes de vie pour contenir 21 % d’oxygène44,45. La Terre possède un satellite, la Lune, le seul satellite significativement grand des planètes telluriques du Système solaire. L'explication la plus généralement admise pour expliquer l'origine de ce singulier satellite serait la collision latérale de la jeune Terre avec un impacteur géant, de la taille de la planète Mars46 ce qui explique aussi que la période de rotation soit si courte (~23 h 56 min 4 s). La période de révolution de la Terre, c'est-à-dire la durée de l'année, est d'environ 365,25 jours.",
+		"image": "terre.jpg"
+	},
+
+	"mars" :{
+		"rayon":"3 396",
+		"distance":"1.5",
+		"description": "Mars (1,5 UA) est deux fois plus petite que la Terre et Vénus, et a seulement le dixième de la masse terrestre (0,107 masse terrestre). Sa période de révolution autour du soleil est d'environ 669 jours et sa journée dure 24 heures et 40 minutes34. Elle possède une atmosphère ténue, principalement composé de dioxyde de carbone et une surface désertique47 avec un climat qui peut être qualifié d'hyper-continental (la température de 20 °C lors d'un bel après-midi d'été peut chuter à -100 °C pendant la nuit34. Le terrain martien, parfois très accidenté, est constellé de vastes volcans comme Olympus Mons (le plus massif du Système solaire), de vallées, de rifts comme Valles Marineris48. Ces structures géologiques montrent des signes d’une activité géologique voire hydraulique qui a peut-être persisté jusqu’à récemment49,50. Mars possède deux petits satellites naturels (Déimos et Phobos), probablement des astéroïdes capturés51.",
+		"image":"mars.jpg"
+	},
+
+	"jupiter" :{
+		"rayon":"71 492",
+		"distance":"5.2",
+		"description": "Jupiter (5,2 UA), avec 318 masses terrestres, est aussi massive que 2,5 fois toutes les autres planètes. Elle est composée essentiellement d'hydrogène et d'hélium. Sa forte chaleur interne crée un certain nombre de caractéristiques semi-permanentes dans son atmosphère, comme des bandes de nuages ou la Grande tache rouge. Jupiter possède 67 satellites connus ; les quatre plus gros, (appelés aussi satellites galiléens car découverts par l'astronome italien Galilée au xviie siècle), Ganymède, Callisto, Io et Europe, présentent des similarités avec les planètes telluriques, comme le volcanisme58. Ganymède, le plus gros satellite du Système solaire, est plus grand que Mercure. Sa période de révolution est d'environ 12 ans et sa période de rotation est de 9 h 55 min 27,3 s",
+		"image": "jupiter.jpg"
+	},
+
+	"saturne" :{
+		"rayon":"60 268",
+		"distance":"9.5",
+		"description":"Saturne (9,5 UA), connue pour son système d'anneaux, possède des caractéristiques similaires à Jupiter, comme sa composition atmosphérique. Elle est moins massive (95 masses terrestres) et possède 62 satellites59 ; deux d'entre eux, Titan et Encelade, présentent des signes d'activité géologique, essentiellement du cryovolcanisme60. Titan est plus grand que Mercure, il est le seul satellite du Système solaire à avoir une atmosphère substantielle. Sa période de révolution est d'environ 29 ans et sa période de rotation est de 10 h 47 min 6 s.",
+		"image": "saturne.jpg"
+	},
+
+	"uranus" :{
+		"rayon": "25 559",
+		"distance":"19.6",
+		"description": "Uranus (19,6 UA), avec 14 masses terrestres, est la moins massive des géantes gazeuses. De façon unique parmi les planètes du Système solaire, elle orbite le Soleil sur son côté, l'axe de sa rotation étant incliné d'un peu plus de 90° par rapport à son orbite. Son noyau est nettement plus froid que celui des autres géantes gazeuses et rayonne très peu de chaleur dans l'espace61. Uranus possède 27 satellites connus, les plus grands étant Titania, Obéron, Umbriel, Ariel et Miranda. Sa période de révolution est d'environ 84 ans.",
+		"image": "uranus.jpg"
+	},
+
+	"neptune" :{
+		"rayon":"24 764",
+		"distance": "30",
+		"description":"Neptune (30 UA), bien que plus petite qu'Uranus, est légèrement plus massive (17 masses terrestres) et par conséquent plus dense. Elle rayonne plus de chaleur interne, mais pas autant que Jupiter ou Saturne62. Neptune possède 14 satellites connus. Le plus grand, Triton, est géologiquement actif et présente des geysers d'azote liquide63. Triton est le seul grand satellite placé sur une orbite rétrograde. Sa période de révolution est d'environ 164 ans.",
+		"image": "neptune.jpg"
+	}
+
+
+}
