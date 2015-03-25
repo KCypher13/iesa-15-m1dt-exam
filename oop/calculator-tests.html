@@ -9,19 +9,38 @@
   <script src="calculator.js"></script>
  
   <script>
+	
 
-  QUnit.test("Calculator", function( assert ) {
-	var calculator = new Calculator();
+  QUnit.test("Calculator add", function( assert ) {
+  	var calculator = new Calculator();
 	calculator.add(5);
     assert.equal(calculator.result, 5, "ajoute 5");
-    calculator.minus(1);
-    assert.equal(calculator.result, 4, "enlève 4");
-    calculator.devide(2);
-    assert.equal(calculator.result, 2, "divise par 2");
-    calculator.multiply(3);
-    assert.equal(calculator.result, 6, "multiplie par 3");
-
   });
+  QUnit.test("Calculator minus", function( assert ) {
+  	var calculator = new Calculator();
+  	calculator.result = 5;
+	calculator.minus(1);
+    assert.equal(calculator.result, 4, "enlève 4");
+  });
+  QUnit.test("Calculator devide", function( assert ) {
+  	var calculator = new Calculator();
+  	calculator.result = 4;
+  	calculator.devide(2);
+    assert.equal(calculator.result, 2, "divise par 2");
+  });
+  QUnit.test("Calculator multiply", function( assert ) {
+  	var calculator = new Calculator();
+  	calculator.result = 2;
+  	calculator.multiply(3);
+    assert.equal(calculator.result, 6, "multiplie par 3");
+  });
+
+
+    
+    
+    
+
+
   </script>
 </head>
 <body>
