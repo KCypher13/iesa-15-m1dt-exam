@@ -63,16 +63,18 @@ function Enigma(){
 
 	this.encryptLetter = function(letter)
 	{
-		return this.correspondingArray[letter];
+		return (this.correspondingArray[letter])?this.correspondingArray[letter]:letter;
 	}
 
 	this.decryptLetter = function(letter)
 	{
+		var letterClear = "undefined";
 		for(var key in this.correspondingArray) {
     		if(this.correspondingArray[key] === letter) {
-    			return key;
+				 letterClear = key;
     		}
 		}
+		return (letterClear != "undefined")? letterClear : letter;
 	}
 
 
