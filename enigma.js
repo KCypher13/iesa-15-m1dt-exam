@@ -63,6 +63,15 @@ function Enigma(){
 		return this.correspondingArray[letter];
 	}
 
+	this.decryptLetter = function(letter)
+	{
+		for(var key in this.correspondingArray) {
+    		if(this.correspondingArray[key] === letter) {
+    			return key;
+    		}
+		}
+	}
+
 
 }
 
