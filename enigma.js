@@ -55,7 +55,14 @@ function Enigma(){
 
 	this.decrypt = function(msgCrypted)
 	{
-		return "abcdefghijklmnopqrstuvwxyz '.,:;";
+		var msgSplit = msgCrypted.split('');
+
+		var msgClear = "";
+		for (var key in msgSplit){
+			msgClear += this.decryptLetter(msgSplit[key]);
+		}
+
+		return msgClear;
 	}
 
 	this.encryptLetter = function(letter)
