@@ -35,6 +35,22 @@
 	<link rel="stylesheet" media="(max-width:960px)"href="css/mobile.css">
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 	<script src="geoloc.js"></script>
+	<script>
+		function allowDrop(ev) {
+		    ev.preventDefault();
+		}
+
+		function drag(ev) {
+			 ev.dataTransfer.setData("id", ev.target.id);
+		}
+
+		function drop(ev) {
+		    ev.preventDefault();
+		    var data = ev.dataTransfer.getData("id");
+		    document.location.href="detail.php?id="+data; 
+
+		}
+	</script>
 </head>
 <body>
 
@@ -63,7 +79,7 @@
 
 			$html .= '<div>';
 			$html .= '<h2>'.$key.'</h2>';
-			$html .= '<img src="img/'.$value->image.'"/>';
+			$html .= '<img src="img/'.$value->image.'" draggable="true" ondragstart="drag(event)" id="'.$key.'"/>';
 			$html .= '<ul>';
 			$html .= '<li><span>Rayon :</span> '.$value->rayon.' Km</li>';
 			$html .= '<li><span>Distance du soleil :</span> '.$value->distance.' UA</li>';
@@ -88,6 +104,8 @@
 			<input type="text" name="planete" id="" placeholder="(ex : Terre)">
 			<input type="submit" value="rechercher">
 		</form>
+
+		<div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">Zone de drop</div>
 	</div>
 
 </section>
