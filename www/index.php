@@ -1,12 +1,12 @@
 <?php
 	$planetes = fopen('planete.json', 'r');
-			$planetes = fread($planetes, filesize('planete.json'));
-			$planetes = json_decode($planetes);
+	$planetes = fread($planetes, filesize('planete.json'));
+	$planetes = json_decode($planetes);
 
-			$planetesName = [];
-			foreach ($planetes as $key => $value) {
-				array_push($planetesName, $key);
-			}
+	$planetesName = [];
+	foreach ($planetes as $key => $value) {
+		array_push($planetesName, $key);
+	}
 
 	if($_POST){
 		if(isset($_POST['planete'])){
@@ -20,7 +20,7 @@
 
 		}
 		else{
-			$error = "Merci d 'entrer le nom d'une planète";
+			$error = "Merci d'entrer le nom d'une planète";
 		}
 			
 	}
