@@ -50,4 +50,12 @@ function Enigma(){
 	{
 		return "abcdefghijklmnopqrstuvwxyz '.,:;";
 	}
+
+	this.encryptLetter = function(letter)
+	{
+		return this.correspondingArray[letter];
+	}
+
+
 }
+
