@@ -37,16 +37,12 @@ function Enigma(){
 	this.correspondingArray[';'] = ';';
 
 
-
-
-
-
 	this.encrypt = function(msgClear)
 	{
 		var msgSplit = msgClear.split('');
 
 		var msgEncrypted = "";
-		for (key in msgSplit){
+		for (var key in msgSplit){
 			msgEncrypted += this.encryptLetter(msgSplit[key]);
 		}
 
