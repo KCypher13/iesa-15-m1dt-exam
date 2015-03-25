@@ -53,9 +53,9 @@
 		$html .= '<h2>'.$planete.'</h2>';
 		$html .= '<img src="img/'.$planetes->$planete->image.'"/>';
 		$html .= '<ul>';
-		$html .= '<li>Rayon : '.$planetes->$planete->rayon.' Km</li>';
-		$html .= '<li>Distance du soleil : '.$planetes->$planete->distance.' UA</li>';
-		$html .= '<li>Description : <br/>'.$planetes->$planete->description.'</li>';
+		$html .= '<li><span>Rayon :</span> '.$planetes->$planete->rayon.' Km</li>';
+		$html .= '<li><span>Distance du soleil :</span> '.$planetes->$planete->distance.' UA</li>';
+		$html .= '<li><span>Description :</span> <br/>'.$planetes->$planete->description.'</li>';
 		$html .= '</ul>';
 		$html .= '</div>';
 

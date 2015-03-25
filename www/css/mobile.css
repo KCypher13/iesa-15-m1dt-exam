@@ -4,5 +4,32 @@ nav{
 }
 
 section div{
-	width:100%;
+	width:90%;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+section div ul{
+	display: inherit;
+	padding-left: 0;
+}
+
+section div li{
+	list-style-type: none;
+}
+
+section div img{
+	display: inherit;
+}
+
+section div a{
+	position: static;
+}
+
+section div li span{
+	font-weight: bold;
+}
+
+#detail section ul{
+	width: 55%;
 }

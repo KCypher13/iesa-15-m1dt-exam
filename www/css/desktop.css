@@ -1,5 +1,6 @@
 body{
 	max-width: 960px;
+	min-width: 550px;
 	margin: auto;
 }
 

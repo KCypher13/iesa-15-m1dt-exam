@@ -65,9 +65,9 @@
 			$html .= '<h2>'.$key.'</h2>';
 			$html .= '<img src="img/'.$value->image.'"/>';
 			$html .= '<ul>';
-			$html .= '<li>Rayon : '.$value->rayon.' Km</li>';
-			$html .= '<li>Distance du soleil : '.$value->distance.' UA</li>';
-			$html .= '<li>Description : '.substr($value->description, 0, 100).'</li>';
+			$html .= '<li><span>Rayon :</span> '.$value->rayon.' Km</li>';
+			$html .= '<li><span>Distance du soleil :</span> '.$value->distance.' UA</li>';
+			$html .= '<li><span>Description :</span> '.substr($value->description, 0, 100).'</li>';
 			$html .= '</ul>';
 			$html .= '<a href=detail.php?id='.$key.'>plus de details</a>';
 			$html .= '</div>';
