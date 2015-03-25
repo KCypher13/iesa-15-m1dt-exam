@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Calculator-test</title>
+  <meta charset="utf-8">
+  <title>Calculator Unit Test</title>
+ 
+  <link rel="stylesheet" href="../qunit/qunit-1.17.1.css">
+  <script src="../qunit/qunit-1.17.1.js"></script>
+  <script src="calculator.js"></script>
+ 
+  <script>
+
+  QUnit.test("Calculator", function( assert ) {
+	var calculator = new Calculator();
+    assert.equal(calculator.add(5), 5, "Encrypt each letter");
+    assert.equal(calculator.minus(-1), 4, "Encrypt each letter");
+    assert.equal(calculator.devide(2), 2, "Encrypt each letter");
+    assert.equal(calculator.multiply(3), 6, "Encrypt each letter");
+
+  });
+  </script>
 </head>
 <body>
-	
+ 
+	<div id="qunit-fixture"></div>
+	<div id="qunit"></div>
+ 
 </body>
 </html>
