@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Index - Planetarium</title>
-	<link rel="stylesheet" media="min-width=960px"href="desktop.css">
-	<link rel="stylesheet" media="max-width=960px"href="mobile.css">
+	<link rel="stylesheet" media="min-width=960px"href="css/desktop.css">
+	<link rel="stylesheet" media="max-width=960px"href="css/mobile.css">
 </head>
 <body>
 
