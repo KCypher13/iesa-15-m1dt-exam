@@ -8,7 +8,9 @@
 </head>
 <body>
 
-<header></header>
+<header>
+	<h1>Planetarium</h1>
+</header>
 <nav></nav>
 <section></section>
 <footer></footer>
