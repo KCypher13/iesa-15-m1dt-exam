@@ -43,7 +43,14 @@ function Enigma(){
 
 	this.encrypt = function(msgClear)
 	{
-		return "jdwovarig xunsyqcp'fmztkhbel.,:;";
+		var msgSplit = msgClear.split('');
+
+		var msgEncrypted = "";
+		for (key in msgSplit){
+			msgEncrypted += this.encryptLetter(msgSplit[key]);
+		}
+
+		return msgEncrypted;
 	}
 
 	this.decrypt = function(msgCrypted)
